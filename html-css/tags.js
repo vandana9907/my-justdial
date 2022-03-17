@@ -1,2 +1,2 @@
-console.log("Hello thbs from exterrnal js file");
+console.log("Hello thbs from exterrnal js file")
 
