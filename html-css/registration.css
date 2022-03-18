@@ -1,3 +1,12 @@
-from{
-    border: 3px salmon;
-}
+body{
+    border: 3px blueviolet solid;
+    }
+    #idname{
+    
+    }
+    .form-example{
+        border: 3px grey yellowgreen;
+        padding: 25px;
+    
+    
+    }
