@@ -1,10 +1,7 @@
-body{
-    border: 5px dashed yellow;
-    
+from{
+    border:  5px yellowgreen;
 }
-.form
-{
-    background-color: rgb(128, 128, 128);
-margin:25px 25px ;
-
+.form-example{
+    margin: 25px;
+    border: 1px gray;
 }

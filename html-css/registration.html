@@ -2,57 +2,63 @@
 <html>
 
 <head>
-    <title>user registrsation form</title>
-    
+    <title>User Registration form</title>
+    <link rel="stylesheet" href="registration.css">
 </head>
 
 <body>
     <form action="" method="get" class="form-example">
-        <div class="form-example">enter your name:</lable>
-            <input placeholder="please enter valid value" type="text" name="name" id="myname" required>
-
+        <div class="form-example">
+            <label for="myname">Enter your name:</label>
+            <input placeholder="Please enter valid value" type="text" name="name" id="myname" required>
         </div>
         <div class="form-example">
-            <lable for="email">enter your email:</lable>
-            <input type="email" name="email" id="email" required>
+            <label for="email">Enter your email:</label>
+            <input type="text" name="email" id="email">
         </div>
-
         <div class="form-example">
-            <lable for="email">enter password:</lable>
-            <input type="email" name="email" id="email" required>
+            <label for="email">Enter your password:</label>
+            <input type="password">
         </div>
-        <div class="from-example" <label for="email">please select your wish:</label>
-            <select>
-                <option>she</option>
-                <option>he</option>
-                <option>they</option>
+        <div class="form-example">
+            <label for="email">Please Select your wish:</label>
+            <select name="wish">
+                <option value="1">She</option>
+                <option value="2">He</option>
+                <option value="3">They</option>
             </select>
+        </div>
+        <div class="form-example">
+            <label for="email">Male</label>
+            <input type="radio" name="gender" value="fm">
+            <label for="email">female</label>
+            <input type="radio" name="gender" value="m">
+            <label for="email">Custom</label>
+            <input type="radio" name="gender" value="c">
+        </div>
+        <div class="form-example">
+            <label for="email">Devops</label>
+            <input type="checkbox" name="skills">
+            <label for="email">Cloud</label>
+            <input type="checkbox" name="skills">
+            <label for="email">AWS</label>
+            <input type="checkbox" name="skills">
+        </div>
+        <div class="form-example">
+            <label type="email">Address</label>
+            <textarea rows="3" cols="30"></textarea>
+        </div>
+        <details>
+            <summary>notes</summary>
+            something small enough to escape casual notice.
+        </details>
 
-            <div class="form-example">
-                <label for="email">male</label>
-                <input type="radio" name="gender" value="m">
-                <label for="email">female</label>
-                <input type="radio" name="gender" value="fm">
-                <label for="email">custome</label>
-                <input type="radio" name="gender" value="c">
-
-
-            </div>
-            <div class="form-example">
-                <label for="email">Address</label>
-                <textarea role="3" cols="30"></textarea>
-            </div>
-            <datalist>
-                <summary>notes</summary>
-                somthing small engoug to escape casual notice.
-            </datalist>
-            <div class="from-example">
-                <button>sing up</button>
-            </div>
-            ===========================
-            <br>
-            <input type="color">
-            <input type="image" src="./image/a.jpg" width="10" height="10">
+        <!-- <div class="form-eample">
+            <input type="submmit" value="subscribe!">
+        </div> -->
+        <div class="form-example">
+            <button>Signup</button>
+        </div>
+        
     </form>
-
-</html>
+</body>
