@@ -1,12 +1,10 @@
 body{
-    border: 3px blueviolet solid;
-    }
-    #idname{
+    border: 5px dashed yellow;
     
-    }
-    .form-example{
-        border: 3px grey yellowgreen;
-        padding: 25px;
-    
-    
-    }
+}
+.form
+{
+    background-color: rgb(128, 128, 128);
+margin:25px 25px ;
+
+}
